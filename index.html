@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./icons/comfy_sofa_icon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>PummPumm Shop</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li class="link active"><a href="#shop">Shop</a></li>
+          <li class="link"><a href="#process">Our process</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#support">Support</a></li>
+        </ul>
+        <!-- for mobile devices -->
+        <div class="burger-container">
+          <div class="burger">
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+        </div>
+
+        <div class="logo">
+          <a href="#shop"><img src="./icons/logo-pumm.svg" alt="logo" /></a>
+        </div>
+
+        <div class="saved">
+          <a href="#"
+            ><img class="smiley" src="./icons/Smiley.svg" alt="Smiley"
+          /></a>
+          <a href="#"><img src="./icons/Handbag.svg" alt="Handbag" /></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- SHOP -->
+      <section id="shop">
+        <img src="./images/shop1-cottonbro.jpg" alt="" />
+        <img src="./images/shop2-cottonbro.jpg" alt="" />
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process">
+        <div class="process-info">
+          <h3>
+            A modern generation of sofa. <br />
+            Lorem ipsum dolor sit amet.
+          </h3>
+          <button>saber más</button>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card-img">
+              <img
+                class="front-img"
+                src="./images/email_message.svg"
+                alt="email_message"
+              />
+              <img
+                class="subtract1"
+                src="./images/Subtract1.svg"
+                alt="Subtract1"
+              />
+            </div>
+            <h4>Entrega en 24 h en tu casa</h4>
+            <p>El sofá en caja que cabe en tu ascensor.</p>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img
+                class="front-img"
+                src="./images/storage_cloud.svg"
+                alt="storage_cloud"
+              />
+              <img
+                class="subtract2"
+                src="./images/Subtract2.svg"
+                alt="Subtract2"
+              />
+            </div>
+
+            <h4>Pruébalo 100 días</h4>
+            <p>Vamos a tu casa a recogerlo.</p>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img
+                class="front-img"
+                src="./images/accounts_profile.svg"
+                alt="accounts_profile"
+              />
+              <img
+                class="subtract3"
+                src="./images/Subtract3.svg"
+                alt="Subtract3"
+              />
+            </div>
+
+            <h4>Fácil de montar</h4>
+            <p>No tools needed !</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="about-rating">
+          <h2>3 módulos. Infinitas posibilidades.</h2>
+          <div class="rating-media">
+            <img
+              class="rating-subtract"
+              src="./icons/about-subtract.svg"
+              alt="subtract"
+            />
+            <img
+              class="rating-img"
+              src="./images/about_captura_de_pantalla.jpg"
+              alt="about_captura_de_pantalla"
+            />
+            <div class="rating">
+              <div>
+                <span>Excellent</span>
+                <img
+                  class="star-group"
+                  src="./icons/about_group_of_stars.svg"
+                  alt="about_group_of_stars"
+                />
+                <span>4.9 </span> out of 5
+              </div>
+
+              <div>
+                <span>123</span> reviews on
+                <img
+                  class="star-shape"
+                  src="./icons/about_star_shape.svg"
+                  alt="about_star_shape"
+                />
+                <span>Trustpilot</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="products">
+          <h2>
+            Construye tu sofá perfecto. Modifícalo <br />
+            como quieras. Empieza con...
+          </h2>
+          <div class="control-products">
+            <div class="color-changer">
+              <p>Elige tu color</p>
+              <label for="green-forest" class="green-forest">
+                <input
+                  type="radio"
+                  name="sofa_color"
+                  id="green-forest"
+                  value="Green forest"
+                  title="Green forest"
+                  checked
+              /></label>
+              <label for="dark-blue" class="dark-blue">
+                <input
+                  type="radio"
+                  name="sofa_color"
+                  id="dark-blue"
+                  value="Dark blue"
+                  title="Dark blue"
+              /></label>
+              <label for="light-blue" class="light-blue">
+                <input
+                  type="radio"
+                  name="sofa_color"
+                  id="light-blue"
+                  value="Light blue"
+                  title="Light blue"
+                />
+              </label>
+              <label for="light-gray" class="light-gray">
+                <input
+                  type="radio"
+                  name="sofa_color"
+                  id="light-gray"
+                  value="Light gray"
+                  title="Light gray"
+                />
+              </label>
+            </div>
+            <button>Compra ahora</button>
+          </div>
+
+          <div class="product-images">
+            <div class="product product1">
+              <img
+                class="product-img1"
+                src="./images/products/product-1green.svg"
+                alt="product"
+              />
+              <div>
+                <p>3 Seater sofa</p>
+                <span>Desde 2500€</span>
+              </div>
+            </div>
+            <div class="product product2">
+              <img
+                class="product-img2"
+                src="./images/products/product-2green.svg"
+                alt="product"
+              />
+              <div>
+                <p>Single chair</p>
+                <span>Desde 1500€</span>
+              </div>
+            </div>
+            <div class="product product3">
+              <img
+                class="product-img3"
+                src="./images/products/product-3green.svg"
+                alt="product"
+              />
+              <div>
+                <p>3 Seater sofa</p>
+                <span>Desde 2500€</span>
+              </div>
+            </div>
+            <div class="product product4">
+              <img
+                class="product-img4"
+                src="./images/products/product-3green.svg"
+                alt="product"
+              />
+              <div>
+                <p>2 Seater sofa</p>
+                <span>Desde 2000€</span>
+              </div>
+            </div>
+            <div class="product product5">
+              <img
+                class="product-img5"
+                src="./images/products/product-1green.svg"
+                alt="product"
+              />
+              <div>
+                <p>3 Seater sofa</p>
+                <span>Desde 2500€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about3">
+          <ul class="about3-content">
+            <li>Dynamic.</li>
+            <li>Comfy.</li>
+            <li>Modular.</li>
+            <li>Dynamic.</li>
+            <li>Comfy.</li>
+            <li>Modular.</li>
+            <li>Dynamic.</li>
+            <li>Comfy.</li>
+            <li>Modular.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SUPPORT -->
+      <section id="support">
+        <h2>Hablan de nosotros</h2>
+        <div class="companies">
+          <div>
+            <img
+              src="./icons/The New York Times Logo.jpg"
+              alt="The New York Times Logo"
+            />
+          </div>
+          <div><img src="./icons/Insider Logo.jpg" alt="Insider Logo" /></div>
+          <div>
+            <img
+              src="./icons/Travel Leisure Logo.jpg"
+              alt="Travel Leisure Logo"
+            />
+          </div>
+          <div>
+            <img
+              src="./icons/Vogue Magazine Logo.jpg"
+              alt="Vogue Magazine Logo"
+            />
+          </div>
+          <div><img src="./icons/ELLE Logo.jpg" alt="ELLE Logo" /></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer1">
+        <div class="join-links">
+          <div class="join">
+            <h4>Join our mailing list</h4>
+            <form>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+              />
+              <button>subscribe</button>
+            </form>
+            <p>By subscribing, i accept the terms & conditions.</p>
+          </div>
+          <div class="useful-links">
+            <h4>Useful links</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Refer to a friend</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Work with us</a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="social">
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              title="Instagram"
+              ><img src="./icons/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook"
+              ><img src="./icons/facebook.svg" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="_blank" title="Twitter"
+              ><img src="./icons/twitter.svg" alt="twitter"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img src="./icons/footerBigLogo.jpg" alt="logo" />
+      </div>
+      <div class="copyright">
+        <h4>Copyright @Nubba 2022</h4>
+        <ul>
+          <li>
+            <a href="#">Terms</a>
+          </li>
+          <li>
+            <a href="#">Privacy policy</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
