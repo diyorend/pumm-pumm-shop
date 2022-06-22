@@ -289,7 +289,6 @@ nav li {
   width: 1.6rem;
   display: inline-block;
   outline-offset: 3px;
-  -moz-outline-radius: 50%;
   border-radius: 50%;
 }
 .green-forest {
