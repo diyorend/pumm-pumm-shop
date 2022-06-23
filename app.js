@@ -81,12 +81,3 @@ colorInputs.forEach((colorInput) => {
 });
 
 changeStyle();
-
-// Footer
-// const joinInput = document.querySelector(".join input");
-// const joinBtn = document.querySelector(".join button");
-
-// joinBtn.addEventListener("click", (e) => {
-//   e.preventDefault();
-//   joinInput.value = "";
-// });
